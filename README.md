@@ -3,6 +3,11 @@
 полезное
     
     | column -t    Выравнивание по столбам
+    
+wifi подключение
+    
+    nmcli dev wifi list                                        #список wifi
+    nmcli dev wifi connect "имя сети" password "пароль"        #подключение wifi
 
 Навигация по файловой системе
     
